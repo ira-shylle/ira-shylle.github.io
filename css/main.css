@@ -2617,6 +2617,18 @@ color: white;
   position: relative;
 }
 
+.modal .modal-content .video-wrapper.pier-63{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal .modal-content .video-wrapper.pier-63 video{
+  width: 32%;
+  height: auto;
+}
 
 
 .modal-nav-left{
@@ -2657,6 +2669,10 @@ color: white;
 @media only screen and (max-width: 768px) {
   .modal-content-wrapper{
     padding: 0 3rem;
+  }
+  
+  .modal .modal-content .video-wrapper.pier-63{
+    gap: 10px;
   }
 }
 
